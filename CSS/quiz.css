@@ -16,3 +16,10 @@
     font-size: 20px;
     text-decoration:none;
     padding-right: 40px;}
+
+.quiz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
