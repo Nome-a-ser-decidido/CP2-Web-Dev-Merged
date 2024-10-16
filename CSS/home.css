@@ -22,6 +22,7 @@
     align-items: center;
     justify-content:space-around;
     padding-top: 10px;
+    
 }
 .imagens img{
     width:300px;
@@ -30,6 +31,7 @@
     padding-bottom: 40px;
     padding-inline: 40px;
     border-radius: 10px;
+    background-color: white;
 }
 .preco{
     display: flex;
@@ -40,15 +42,44 @@
     
 
 }
-.precoSeparado{
-   
-    padding: 2px;
-   
-}
 .informacao{
     display:flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    gap:10px;
+}
+.branco{
+    border: 1px,solid,black;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.yellow{
+    border: 1px,solid,black;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    margin-bottom: 50px;
 }
 
+.cyan{
+    border: 1px,solid,black;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    background-color:cyan;
+    margin-bottom: 50px;
+}
+h4{
+    display:flex;
+    justify-content:center;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    padding-top: 500px;
+}
