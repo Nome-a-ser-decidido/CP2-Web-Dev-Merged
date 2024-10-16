@@ -52,4 +52,4 @@ for (let x = 0; x < 10; x++){
     }
 }
 
-console.log(`Você acertou ${user_points}/10`)
+document.getElementById("result").innerHTML = `Você acertou ${user_points}/10`;
