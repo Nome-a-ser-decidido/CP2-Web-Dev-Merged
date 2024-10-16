@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de bicicletas - Home</title>
-    <link rel="stylesheet" href="../CSS/home.css">
-    <script src="../JS/home.js"></script>
-</head>
-<body onload="welcomeAlert()">
-    <header>
-    <h1>Bem-vindo à Loja de Bicicletas</h1>
-      <a href="index.html">Home</a>
-      <a href="sobre.html">Sobre</a>
-      <a href="contato.html">Contato</a>
-      <a href="quiz.html">Quiz</a>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de bicicletas - Home</title>
+  <link rel="stylesheet" href="../CSS/home.css">
+  <script src="../JS/home.js"></script>
+</head>
+
+<body onload="welcomeAlert()">
+  <header>
+    <div class="header">
+      <h1>Loja de Bicicletas</h1>
+        <a class="headerButton" href="index.html">Home</a>
+        <a class="headerButton" href="sobre.html">Sobre</a>
+        <a class="headerButton" href="contato.html">Contato</a>
+        <a class="headerButton"href="quiz.html">Quiz</a>
+    </div>
   </header>
-  
+
   <main>
     <p>Explore as melhores bicicletas e acessórios para você!</p>
     <button onclick="changeBackground()">Trocar Cor de Fundo</button>
   </main>
-  
+  <div class="imagens">
+    <img  src="../assets/Bike1.webp">
+    <img  src="../assets/Bike2.webp">
+    <img  src="../assets/Bike3.webp">
+    
+  </div>
+
   <footer>
     <p>&copy; 2024 Loja de Bicicletas</p>
   </footer>
 </body>
+
 </html>
