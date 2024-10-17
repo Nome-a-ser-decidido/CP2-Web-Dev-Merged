@@ -1,29 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de bicicletas - Home</title>
-    <link rel="stylesheet" href="../CSS/home.css">
-    <script src="../JS/home.js"></script>
-</head>
-<body onload="welcomeAlert()">
-    <header>
-    <h1>Bem-vindo à Loja de Bicicletas</h1>
-      <a href="index.html">Home</a>
-      <a href="sobre.html">Sobre</a>
-      <a href="contato.html">Contato</a>
-      <a href="quiz.html">Quiz</a>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de bicicletas - Home</title>
+  <link rel="stylesheet" href="../CSS/home.css">
+  <script src="../JS/home.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <h1>Loja de Bicicletas</h1>
+        <a class="headerButton" href="home.html">Home</a>
+        <a class="headerButton" href="sobre.html">Sobre</a>
+        <a class="headerButton" href="contato.html">Contato</a>
+        <a class="headerButton"href="quiz.html">Quiz</a>
+    </div>
   </header>
-  
+
   <main>
-    <p>Explore as melhores bicicletas e acessórios para você!</p>
-    <button onclick="changeBackground()">Trocar Cor de Fundo</button>
-  </main>
+    <p class="informacao">Explore as melhores bicicletas e acessórios para você!</p>
+    <h4>Mude a cor do fundo</h4>
+  <div class="informacao">
+    <button class="branco" onclick="changeBackground('white')"></button>
+    <button class="yellow" onclick="changeBackground('yellow')"></button>
+    <button class="cyan" onclick="changeBackground('cyan')"></button>
+  </div>
   
+  </main>
+  <div class="imagens">
+    <img  src="../assets/Bike1.webp">
+    <img  src="../assets/Bike2.webp">
+    <img  src="../assets/Bike3.webp">
+    
+  </div>
+  
+  <div class="preco">
+    <h3 class="precoSeparado">R$43.000,00</h3>
+    <h3 class="precoSeparado">R$56.000,00</h3>
+    <h3 class="precoSeparado">R$29.500,00</h3>
+  </div>
+ 
+
+
   <footer>
-    <p>&copy; 2024 Loja de Bicicletas</p>
+    <p class="copy">&copy; 2024 Loja de Bicicletas</p>
   </footer>
 </body>
+
 </html>
